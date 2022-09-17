@@ -5,8 +5,7 @@
   "theme_color": "#213b17",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/index.html",
-  "start_url": "/index.html",
+  "start_url": "/",
   "icons": [
     {
       "src": "/assets/img/mushroom-icon_128.png",
