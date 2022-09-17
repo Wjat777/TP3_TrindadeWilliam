@@ -1,0 +1,42 @@
+{
+  "name": "TP3 site mycologie",
+  "short_name": "TP3",
+  "background_color": "#7baf96",
+  "theme_color": "#213b17",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/index.html",
+  "start_url": "/index.html",
+  "icons": [
+    {
+      "src": "/assets/img/mushroom-icon_128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/img/mushroom-icon_96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/img/mushroom-icon_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/img/mushroom-icon_144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/img/mushroom-icon_64.png",
+      "sizes": "64x64",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+<!--cuillete.html-->
+<!--Par: William John Adam Trindade-->
+<!--2022-09-15-->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="icon" type="image/x-icon" href="assets/img/mushroom-icon_144.png" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="description" content="TP3 - Site Mycologolie" />
+    <meta name="theme-color" content="#213b17" />
+
+    <!-- Add iOS meta tags and icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="TP3 - Site Mycologolie" />
+
+    <link rel="apple-touch-icon" href="/assets/img/mushroom-icon_144.png" />
+
+    <title>Cuillete</title>
+
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/style/css/cuillete.css" />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon/favicon.png" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="/assets/img/mushroom-icon_16.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+          Mycologie
+        </a>
+        <button
+          class="navbar-toggler custom-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMycologie"
+          aria-controls="navMycologie"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"> </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMycologie">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="cuillete.html">Cuillete</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="livres.html">Livres & Autres resources</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contactez-nous</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Cuillete"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Cuiilete"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Classification"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Classification"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <div class="d-flex justify-content-center">
+              <img src="assets/img/mycologie/cuillete.jpg" class="img-fluid" width="1200" alt="cuillete" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cuillete</h5>
+                <p>Cuillete et observation</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="d-flex justify-content-center">
+              <img src="assets/img/mycologie/cuillete2.jpg" class="img-fluid" width="1200" alt="cuillete" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Cuillete</h5>
+                <p>Panier avecplusieurs spécies</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="d-flex justify-content-center">
+              <img src="assets/img/mycologie/classification.jpeg" class="img-fluid" width="1200" alt="classification" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Classification</h5>
+                <p>Avec l'aide d'un specialiste</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="d-flex justify-content-center">
+              <img src="assets/img/mycologie/classification2.jpg" class="img-fluid" width="1200" alt="classification" />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Classification</h5>
+                <p>Avec l'aide d'un specialiste</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Précedent</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Prochain</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <section>
+      <div class="container no-gutters">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>CUEILLETTE DE CHAMPIGNONS ET PLANTES SAUVAGES</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <p>
+                CUEILLETTE DE CHAMPIGNONS ET PLANTES SAUVAGES LES SAMEDIS MATINS DU 23 JUILLET AU 10 OCTOBRE 2022. SORTIES GARANTIES LES SAMEDIS 23 ET 30
+                JUILLET, 6 ET 13 AOÛT 2022.
+              </p>
+              <p>
+                Tous les samedis matin de la mi-juillet au début octobre, vivez une sortie thématique d’une demi-journée dans les forêts du Cap Jaseux, guidée
+                par des professionnels de la cueillette de champignons forestiers et de plantes sauvages. Lors d’une randonnée en forêt qui dure environ 2
+                heures, les guides vous aident à identifier et cueillir différentes espèces de champignons et goûter à certaines plantes sauvages. La fin de la
+                sortie est marquée d’une petite dégustation de champignons (si les mesures sanitaires en vigueur le permettent) et les guides vous remettront
+                quelques recettes à essayer à la maison. La cueillette est séparée parmi les participants intéressés.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container normal">
+        <div class="section__title m-b-sm">
+          <h2>Tarifs:</h2>
+        </div>
+
+        <div>
+          <h4 style="background-color: #3b83b8" class="pricing-title">Adulte (18 ans et plus)</h4>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="d-flex justify-content-between align-items-center p-3">
+                <div class="type">
+                  <span style="font-size: 3em; color: #3b83b8">
+                    <!-- solid style -->
+                    <i class="fa-solid fa-user"></i>
+                  </span>
+                  <strong>Adulte</strong>
+                </div>
+
+                <strong
+                  ><span>30,00<sup>$</sup></span></strong
+                >/ personne
+
+                <div>
+                  <a class="btn btn-info" target="_blank" title="Réservez" href="">Réservez</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h4 style="background-color: #3b83b8" class="pricing-title">Junior (17 ans et moins)</h4>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="-flex justify-content-between align-items-center p-3">
+              <div>
+                <span style="font-size: 3em; color: #3b83b8">
+                  <!-- solid style -->
+                  <i class="fa-solid fa-user"></i>
+                </span>
+
+                <strong>Junior</strong>
+              </div>
+              <strong
+                ><span>10,00<sup>$</sup></span></strong
+              >/ personne
+
+              <div>
+                <a class="btn btn-info" target="_blank" title="Réservez" href="">Réservez</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container normal section__title section--darkbackground">
+        <div class="m-b-sm">
+          <h2>Planifier votre séjour</h2>
+          <strong>Vous avez les questions, nous avons les réponses</strong>
+        </div>
+
+        <div class="row">
+          <div class="col-lg col-sm-12" style="visibility: visible">
+            <div class="single-faq">
+              <h4>Les animaux de compagnie sont-ils admis sur le site ?</h4>
+
+              <p>
+                Le Parc Aventures Cap Jaseux est l’un des rares parcs où les animaux en laisse sont admis. Ils le sont dans les sentiers pédestres, à la plage,
+                au camping et dans les cabines équipées en bois rond. Attention! Ils ne sont pas autorisés à l’intérieur des dômes, sphères suspendues et
+                maisons dans les arbres.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg col-sm-12 wow fadeInTop animated" style="visibility: visible">
+            <div class="single-faq">
+              <h4>Comment puis-je effectuer une réservation ?</h4>
+
+              <p>
+                Vous pouvez réserver en ligne via la section « Réserver en ligne » ou en téléphonant au 1-888-674-9114. Nos préposé(e)s au service à la
+                clientèle se feront un plaisir de vous aider à planifier un séjour des plus agréables.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg col-sm-12 wow fadeInTop animated" style="visibility: visible">
+            <div class="single-faq">
+              <h4>Quels sont les modes de paiement acceptés ?</h4>
+
+              <p>
+                À votre arrivée sur le site, vous pouvez payer en argent comptant, par débit, par carte de crédit (Visa, Mastercard, American Express) ou par
+                chèque de voyage (veuillez noter que les chèques personnels ne sont pas acceptés).
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-link">
+          <div class="btn-holder">
+            <a class="button" href=""><span>Consulter notre foire aux questions</span><i class="icon-right-arrow"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section #5 : Footer -->
+    <footer>
+      <div class="container-fluid footer">
+        <div class="row text-center no-gutters text-white justify-content-center align-items-center">
+          <div class="col-2">
+            <i class="fab fa-instagram fa-1x"></i>
+          </div>
+          <div class="col-2">
+            <i class="fab fa-twitter fa-1x"></i>
+          </div>
+          <div class="col-2">
+            <i class="fab fa-youtube fa-1x"></i>
+          </div>
+          <div class="col-2">
+            <i class="fab fa-facebook-square fa-1x"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--  -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/23ca1c8c45.js" crossorigin="anonymous"></script>
+  </body>
+</html>
