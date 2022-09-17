@@ -21,7 +21,6 @@ const FILES_TO_CACHE = [
   "style/css/livres.css",
   "style/css/livres.css.map",
   "js/contact.js",
-  "assets/img",
   "assets/img/favicon/favicon.ico",
   "assets/img/favicon/favicon.png",
   "assets/img/favicon/favicon16.png",
