@@ -55,6 +55,17 @@ const FILES_TO_CACHE = [
   "assets/img/mycologie/livre2.jpg",
   "assets/img/mycologie/mushroom-collage-01.jpg",
   "assets/img/mycologie/qsst.png",
+  "assets/img/mushroom-icon_16.png",
+  "assets/img/mushroom-icon_24.png",
+  "assets/img/mushroom-icon_32.png",
+  "assets/img/mushroom-icon_48.png",
+  "assets/img/mushroom-icon_64.png",
+  "assets/img/mushroom-icon_72.png",
+  "assets/img/mushroom-icon_96.png",
+  "assets/img/mushroom-icon_128.png",
+  "assets/img/mushroom-icon_144.png",
+  "assets/img/mushroom-icon_192.png",
+  "assets/img/mushroom-icon_512.png"
 ];
 self.addEventListener("install", (evt) => {
   console.log("[ServiceWorker] Install");
